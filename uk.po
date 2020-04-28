@@ -1,0 +1,17 @@
+msgid ""
+msgstr ""
+"Content-Type: text/plain; charset=utf-8\n"
+"Plural-Forms: nplurals = 2; plural = (n != 1);\n"
+"Language: es\n"
+"MIME-Version: 1.0\n"
+"Content-Transfer-Encoding: 8bit\n"
+
+#: counter.js:12
+msgid "starting count up to ${ n }"
+msgstr "починаємо рахунок до ${ n }"
+
+#: counter.js:14
+msgid "one tick passed"
+msgid_plural "${ i } ticks passed"
+msgstr[0] "something"
+msgstr[1] "something again ${ i }"

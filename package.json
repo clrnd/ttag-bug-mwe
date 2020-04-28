@@ -1,0 +1,21 @@
+{
+  "name": "@evo/quick-start",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "counter": "node counter.js",
+    "counter-uk": "npm run convert && LOCALE=uk node counter.js",
+    "convert": "npm run update && ttag po2json uk.po > uk.po.json",
+    "precompile": "ttag replace uk.po counter.uk.js counter.js",
+    "update": "ttag update uk.po counter.js"
+  },
+  "author": "",
+  "license": "ISC",
+  "dependencies": {
+    "ttag": "^1.2.1"
+  },
+  "devDependencies": {
+    "ttag-cli": "^1.3.0-1"
+  }
+}
